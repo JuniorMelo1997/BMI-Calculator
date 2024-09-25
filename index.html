@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de IMC</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -47,14 +49,12 @@
         <h2>Calcule seu IMC</h2>
         <form action="">
             <label for="peso">Peso (kg):</label>
-            <input placeholder="Insira seu peso em kg" type="number" id="peso" name="peso" step="0.1" required><br><br>
+            <input placeholder="Insira seu peso em kg. Ex: 75" type="number" id="peso" name="peso" step="0.1" required><br><br>
     
             <label for="altura">Altura (m):</label>
-            <input placeholder="Insira sua altura em metros" type="number" id="altura" name="altura" step="0.01" required><br><br>
+            <input placeholder="Insira sua altura em centímetros. Ex: 173" type="number" id="altura" name="altura" step="0.01" required><br><br>
     
-            <button>
-                Calcular
-            </button>
+            <input class="button" type="button" value="Calcular">
         </form>
     </div>
 </body>
